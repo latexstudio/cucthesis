@@ -13,7 +13,6 @@
 \section{一级标题}
 \subsection{二级标题}
 \subsubsection{三级标题}
-
 \nonumsection{一级标题（无编号）}
 ```
 
@@ -22,14 +21,14 @@
 ```latex
 \begin{figure}[h]
     \centering
-    \includegraphics[scale=1.0]{imgs/xxx.png}	% 支持.jpg/.png/.pdf等格式
+    \includegraphics[scale=1.0]{imgs/xxx.png}  % 支持.jpg/.png/.pdf等
     \caption{图片标题}
 \end{figure}
 ```
 
 #### 插入表格
 
-https://www.tablesgenerator.com/
+可以使用在线工具[TableGenerator](https://www.tablesgenerator.com/)生成。
 
 #### 插入公式
 
