@@ -2,7 +2,7 @@
 
 本模板有两种使用方式，Overleaf和本地编译。
 
-+   Overleaf是网页版的LaTeX编辑环境，你只需注册一个账号，选择[cucthesis](https://www.overleaf.com/latex/templates/cucthesis/fycxjcfshqrz)，就能立即开始写作。
++   Overleaf是网页版的LaTeX编辑环境，你只需注册一个账号，选择以[cucthesis](https://www.overleaf.com/latex/templates/cucthesis/fycxjcfshqrz)为模板，新建项目，就能立即开始写作。
 
 +   本地编译需要配置环境，推荐动手能力强的同学尝试（[查看教程]()）。
 
@@ -101,7 +101,7 @@ def add(x, y):
 在百度学术或知网中找到要引的文献，导出bibtex格式，将其粘贴到`references.bib`文件中。例如：
 
 ```latex
-@article{bib02,		% 第一行是文献名
+@article{bib02,		% 第一行定义文献名
   title={科学技术报告、学位论文和学术论文的编写格式},
   author={YoviSun.COM, yovisunqq.com},
   journal={郑州航空工业管理学院学报},
@@ -111,7 +111,7 @@ def add(x, y):
 }
 ```
 
-接着，你可以在`main.tex`文件中对该文献进行引用。
+接着，你可以在`.tex`文件中通过`\cite{文献名}`对该文献进行引用。例如：
 
 ```latex
 \cite{bib02}
