@@ -29,9 +29,9 @@
 
 ```latex
 \begin{itemize}
-	\item 条目1
-	\item 条目2
-	\item 条目3
+    \item 条目1
+    \item 条目2
+    \item 条目3
 \end{itemize}
 ```
 
@@ -53,7 +53,7 @@
 
 ```latex
 \begin{equation}
-	a + b = \lambda
+    a + b = \lambda
 \end{equation}
 ```
 
@@ -62,7 +62,7 @@
 ```latex
 \begin{lstlisting}[language=Python]
 def add(x, y):
-	return x + y
+    return x + y
 \end{lstlisting}
 ```
 
@@ -79,7 +79,7 @@ def add(x, y):
 
 ```latex
 \begin{equation}
-	a + b = \lambda		\label{eq:a+b}
+    a + b = \lambda		\label{eq:a+b}
 \end{equation}
 ```
 
