@@ -2,17 +2,9 @@
 
 本模板有两种使用方式，Overleaf和本地编译。
 
-#### Overleaf
++   Overleaf是网页版的LaTeX编辑环境，你只需注册一个账号，选择[cucthesis](https://www.overleaf.com/latex/templates/cucthesis/fycxjcfshqrz)，就能立即开始写作。
 
-Overleaf是网页版的LaTeX编辑环境，你只需注册一个账号，选择[cucthesis](https://www.overleaf.com/latex/templates/cucthesis/fycxjcfshqrz)，就能立即开始写作。
-
-#### 本地编译
-
-本地编译需要配置环境，LaTeX和C一样，是一门语言。因此需要安装**编译器**和**编辑器**。
-
-+   编译器取决于你的操作系统，Windows上可以安装MikTex。
-
-+   编辑器推荐VS Code + LaTeX WorkShop插件。
++   本地编译需要配置环境，推荐动手能力强的同学尝试（[查看教程]()）。
 
 ## LaTeX命令
 
@@ -31,6 +23,16 @@ Overleaf是网页版的LaTeX编辑环境，你只需注册一个账号，选择[
 \subsubsection{三级标题}
 
 \nonumsection{一级标题（无编号）}
+```
+
+#### 无序列表
+
+```latex
+\begin{itemize}
+	\item 条目1
+	\item 条目2
+	\item 条目3
+\end{itemize}
 ```
 
 #### 插入图片
