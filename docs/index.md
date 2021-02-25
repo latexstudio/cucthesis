@@ -4,7 +4,7 @@
 
 #### Overleaf
 
-Overleaf是网页版的LaTeX编辑环境，你只需注册一个账号，选择[cucthesis](https://cn.overleaf.com/)，就能立即开始写作。
+Overleaf是网页版的LaTeX编辑环境，你只需注册一个账号，选择[cucthesis](https://www.overleaf.com/latex/templates/cucthesis/fycxjcfshqrz)，就能立即开始写作。
 
 #### 本地编译
 
