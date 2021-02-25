@@ -38,7 +38,7 @@
 #### 插入图片
 
 ```latex
-\begin{figure}[h]
+\begin{figure}[ht]
     \centering
     \includegraphics[scale=1.0]{imgs/xxx.png}
     \caption{图片标题}
