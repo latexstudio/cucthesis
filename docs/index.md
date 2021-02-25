@@ -2,9 +2,9 @@
 
 本模板有两种使用方式，Overleaf和本地编译。
 
-+   Overleaf是网页版的LaTeX编辑环境，你只需注册一个账号，选择以[cucthesis](https://www.overleaf.com/latex/templates/cucthesis/fycxjcfshqrz)为模板，新建项目，就能立即开始写作。
++   Overleaf是网页版的LaTeX编辑环境，你只需注册一个账号，选择[cucthesis](https://www.overleaf.com/latex/templates/cucthesis/fycxjcfshqrz)作为模板，新建项目，就能立即开始写作。
 
-+   本地编译需要配置环境，推荐动手能力强的同学尝试（[查看教程]()）。
++   本地编译需要配置环境，推荐动手能力强的同学尝试（[查看教程](installation.md)）。
 
 ## LaTeX命令
 
