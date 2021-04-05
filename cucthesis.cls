@@ -1,8 +1,9 @@
 % Author: Yang Liu
 % Email: blueloveTH@foxmail.com
 % License: LaTeX Project Public License v1.3c
+% Date: April 05, 2021
 
-\ProvidesClass{cucthesis}[2021/02/23 v0.1 Thesis Class of Communication University of China]
+\ProvidesClass{cucthesis}[2021/04/05 v0.2 Thesis Class of Communication University of China]
 \NeedsTeXFormat{LaTeX2e}
 
 \RequirePackage{kvoptions}
@@ -72,12 +73,15 @@
 \renewcommand{\thetable}{\arabic{section}-\arabic{table}}
 \renewcommand{\theequation}{\arabic{section}-\arabic{equation}}
 
-\newcommand{\appendixformat}{
+\renewcommand{\appendix}{
   \renewcommand\figurename{附图}
   \renewcommand\tablename{附表}
   \renewcommand{\thefigure}{\arabic{figure}}
   \renewcommand{\thetable}{\arabic{table}}
 }
+
+\setlength{\belowcaptionskip}{0.5\ccwd}
+%\setlength{\abovecaptionskip}{0.5\ccwd}
 
 %%%%%%%%%%%%%%%%%%%%%% code style %%%%%%%%%%%%%%%%%%%%%%
 
@@ -119,11 +123,21 @@
 
 \newcommand{\keywords}[1]{\newline\newline\newline\noindent\heiti{关键词：}\heiti #1}
 
+\newcommand{\maketitleEN}{
+  \zihao{-2}\textbf{\heiti\thesisTitleEN}
+  \vspace{2\ccwd}
+
+  \zihao{4}\yourNameEN
+  \vspace{1.5\ccwd}
+}
+
 % 英文摘要命令
 \newenvironment{abstractEN}{
   \clearpage\phantomsection
   \begin{center}
     \vspace*{-10pt}
+    \maketitleEN    % Extra command
+
     \zihao{3}\textbf{\heiti{ABSTRACT}}
     
     \vspace{8pt}

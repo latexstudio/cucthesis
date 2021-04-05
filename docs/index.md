@@ -69,8 +69,8 @@ def add(x, y):
 #### 插入附录
 
 ```latex
+\appendix
 \nonumsection{附录}
-\appendixformat
 ```
 
 #### 引用图表与公式
